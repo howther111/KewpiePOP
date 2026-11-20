@@ -1,0 +1,9 @@
+商品名入力規則一覧は「goods_name_unique.txt」
+Excelに更新があれば一覧のテキストデータを作成後、
+「remove_duplicates_gui.exe」を使用して更新する。
+
+POPをチェックする場合、まずPDFに対して「pdf_text_extractor.exe」を用いて
+テキストファイルへと変換する。
+
+作成したテキストファイルと商品名入力規則一覧を「pdf_text_rule_checker_gui.exe」に読み込ませると
+入力チェックの結果が出力される。
